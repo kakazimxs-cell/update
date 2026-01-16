@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Barbearia Prime — Corte, Barba & Estilo</title>
+  <meta name="description" content="Barbearia com cortes modernos, barba na navalha e atendimento premium. Agende pelo WhatsApp." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="#inicio" aria-label="Ir para o início">
+          <div class="logo">B</div>
+          <div>
+            <div class="brand-title">Barbearia Prime</div>
+            <div class="brand-sub">Corte • Barba • Estilo</div>
+          </div>
+        </a>
+
+        <nav class="menu" aria-label="Navegação">
+          <a href="#servicos">Serviços</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#avaliacoes">Avaliações</a>
+          <a href="#local">Local</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+        <div class="cta">
+          <button class="btn hamburger" id="hamburger" aria-label="Abrir menu">☰ Menu</button>
+          <a class="btn primary" id="btnZapTop" href="#" target="_blank" rel="noreferrer">Agendar no WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="mobile" id="mobileMenu" aria-label="Menu mobile">
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#local">Local</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <header class="hero" id="inicio">
+    <div class="container">
+      <div class="heroGrid">
+        <div class="heroCard">
+          <div class="kicker"><span class="dot"></span> Atendimento premium • Profissionais experientes</div>
+          <h1>Corte alinhado, barba na régua e vibe de respeito.</h1>
+          <p class="sub">
+            Na <strong>Barbearia Prime</strong>, você sai pronto pro corre: corte moderno, barba na navalha e finalização impecável.
+            Agende em segundos pelo WhatsApp.
+          </p>
+
+          <div class="heroActions">
+            <a class="btn primary" id="btnZapHero" href="#" target="_blank" rel="noreferrer">💬 Agendar agora</a>
+            <a class="btn" href="#servicos">Ver serviços e preços</a>
+          </div>
+
+          <div class="badges">
+            <span class="badge">⭐ 4,9/5 (Google)</span>
+            <span class="badge">🕒 Pontualidade</span>
+            <span class="badge">💈 Ambiente climatizado</span>
+          </div>
+        </div>
+
+        <div class="side">
+          <div class="mini">
+            <h3>📍 Endereço</h3>
+            <p id="enderecoTxt">Rua Exemplo, 123 — Centro, Sua Cidade</p>
+            <p class="small mt10">Estacionamento fácil na região.</p>
+          </div>
+
+          <div class="mini">
+            <h3>🗓️ Horários</h3>
+            <div class="hours">
+              <div class="row"><span>Seg–Sex</span><span class="highlight">09:00–20:00</span></div>
+              <div class="row"><span>Sábado</span><span class="highlight">09:00–18:00</span></div>
+              <div class="row"><span>Domingo</span><span class="highlight">Fechado</span></div>
+            </div>
+          </div>
+
+          <div class="mini">
+            <h3>⚡ Promo da semana</h3>
+            <p>Combo <strong>Corte + Barba</strong> com finalização premium.</p>
+            <div class="promoRow">
+              <span class="pill">R$ 79</span>
+              <a class="btn" id="btnZapPromo" href="#" target="_blank" rel="noreferrer">Quero esse combo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section id="servicos">
+    <div class="container">
+      <div class="sectionHead">
+        <div>
+          <h2>Serviços & Preços</h2>
+          <p>Valores sugeridos — personalize como quiser.</p>
+        </div>
+        <a class="btn" id="btnZapServicos" href="#" target="_blank" rel="noreferrer">Agendar pelo WhatsApp</a>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Corte Masculino</h3>
+          <p>Degradê, social, freestyle e finalização.</p>
+          <div class="price"><span>Preço</span><span class="pill">R$ 45</span></div>
+        </div>
+
+        <div class="card">
+          <h3>Barba na Navalha</h3>
+          <p>Toalha quente, contorno e hidratação.</p>
+          <div class="price"><span>Preço</span><span class="pill">R$ 40</span></div>
+        </div>
+
+        <div class="card">
+          <h3>Combo Corte + Barba</h3>
+          <p>Pacote completo com acabamento premium.</p>
+          <div class="price"><span>Preço</span><span class="pill">R$ 79</span></div>
+        </div>
+
+        <div class="card">
+          <h3>Sobrancelha</h3>
+          <p>Design discreto para valorizar o rosto.</p>
+          <div class="price"><span>Preço</span><span class="pill">R$ 15</span></div>
+        </div>
+
+        <div class="card">
+          <h3>Hidratação / Selagem</h3>
+          <p>Tratamento para fortalecer e alinhar.</p>
+          <div class="price"><span>Preço</span><span class="pill">R$ 60</span></div>
+        </div>
+
+        <div class="card">
+          <h3>Pezinho</h3>
+          <p>Acabamento rápido entre cortes.</p>
+          <div class="price"><span>Preço</span><span class="pill">R$ 20</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Gallery -->
+<section id="galeria">
+  <div class="container">
+    <div class="sectionHead">
+      <div>
+        <h2>Galeria</h2>
+        <p>Troque as imagens pelos seus trabalhos (Instagram ajuda muito).</p>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <!-- Foto principal -->
+      <div class="photo">
+        <img src="img/faixada.jpg" alt="Corte masculino na barbearia">
+      </div>
+
+      <!-- Miniaturas -->
+      <div class="thumbs">
+        <div class="photo thumb">
+          <img src="img/corte.jpg" alt="Corte 1">
+        </div>
+
+        <div class="photo thumb">
+          <img src="img/corte2.jpg" alt="Corte 2">
+        </div>
+
+        <div class="photo thumb">
+          <img src="img/corte3.jpg" alt="Corte 3">
+        </div>
+
+        <div class="photo thumb">
+          <img src="img/corte4.jpg" alt="Corte 4">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Testimonials -->
+  <section id="avaliacoes">
+    <div class="container">
+      <div class="sectionHead">
+        <div>
+          <h2>Avaliações</h2>
+          <p>Prova social que vende — coloque nomes reais (com permissão).</p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <div class="stars">★★★★★</div>
+          <h3 class="mt8">Atendimento top</h3>
+          <p class="quote">“Ambiente muito bom e o corte ficou perfeito. Volto sempre.”</p>
+          <p class="small mt10">— Lucas M.</p>
+        </div>
+        <div class="card">
+          <div class="stars">★★★★★</div>
+          <h3 class="mt8">Barba impecável</h3>
+          <p class="quote">“Navalha com cuidado e toalha quente. Saí renovado.”</p>
+          <p class="small mt10">— Rafael S.</p>
+        </div>
+        <div class="card">
+          <div class="stars">★★★★★</div>
+          <h3 class="mt8">Pontual e profissional</h3>
+          <p class="quote">“Cheguei e já fui atendido no horário. Recomendo demais!”</p>
+          <p class="small mt10">— Diego P.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location -->
+  <section id="local">
+    <div class="container">
+      <div class="sectionHead">
+        <div>
+          <h2>Como chegar</h2>
+          <p>Substitua o mapa pelo link do Google Maps do seu endereço.</p>
+        </div>
+        <a class="btn" id="btnMaps" href="#" target="_blank" rel="noreferrer">Abrir no Google Maps</a>
+      </div>
+
+      <div class="contactGrid">
+        <div class="card">
+          <h3>📌 Endereço</h3>
+          <p id="enderecoCard">Av. Brasil, 202 - Jardim Barueri, Barueri - SP, 06411-310</p>
+          <div class="tags">
+            <span class="pill">Wi-Fi</span>
+            <span class="pill">Ar-condicionado</span>
+            <span class="pill">Café</span>
+          </div>
+          <p class="small mt12">Dica: Próximo ao parque municipal de Barueri.</p>
+        </div>
+
+        <div class="card mapCard">
+          <iframe
+            title="Mapa"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.8742909710263!2d-46.88000992492898!3d-23.501036985866104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf03c7bf4baf77%3A0x175b0cc4517710d2!2sK%C3%A9u&#39;s%20Barbearia!5e0!3m2!1spt-BR!2sbr!4v1768582391646!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contato">
+    <div class="container">
+      <div class="sectionHead">
+        <div>
+          <h2>Contato</h2>
+          <p>WhatsApp é rei pra barbearia. Formulário é opcional.</p>
+        </div>
+      </div>
+
+      <div class="contactGrid">
+        <div class="card">
+          <h3>Fale com a gente</h3>
+          <p class="mt6">📲 WhatsApp: <span class="highlight" id="foneTxt">(11) 99999-9999</span></p>
+          <p class="mt6">📷 Instagram: <span class="highlight">@barbeariaprime</span></p>
+          <p class="mt6">✉️ E-mail: <span class="highlight">contato@barbeariaprime.com</span></p>
+
+          <div class="btnRow mt14">
+            <a class="btn primary" id="btnZapContato" href="#" target="_blank" rel="noreferrer">Agendar no WhatsApp</a>
+            <a class="btn" href="#servicos">Ver preços</a>
+          </div>
+
+          <p class="small mt12">Resposta rápida em horário comercial.</p>
+        </div>
+
+        <div class="card">
+          <h3>Envie uma mensagem</h3>
+          <form id="formContato">
+            <input type="text" id="nome" placeholder="Seu nome" required />
+            <input type="tel" id="telefone" placeholder="Seu WhatsApp (opcional)" />
+            <textarea id="mensagem" placeholder="O que você quer fazer? (corte, barba, combo...)" required></textarea>
+            <button class="btn primary" type="submit">Enviar</button>
+            <p class="small">Isso abre seu e-mail (mailto). Se preferir, use o WhatsApp.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footerWrap">
+      <div>© <span id="ano"></span> Barbearia Prime. Todos os direitos reservados.</div>
+      <div>Feito para converter: WhatsApp, preços claros e prova social.</div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <div class="float" aria-label="Atalho WhatsApp">
+    <a class="btn primary" id="btnZapFloat" href="#" target="_blank" rel="noreferrer">💬 Agendar</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
